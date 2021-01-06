@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductionComponents", "ProductionComponents\ProductionComponents.csproj", "{20AE6F31-CB26-4B7B-9C65-85946CAA1A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationConsole", "CalculationConsole\CalculationConsole.csproj", "{4AA1255E-DEE8-4378-B0EE-35F8B7A31D45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20AE6F31-CB26-4B7B-9C65-85946CAA1A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AE6F31-CB26-4B7B-9C65-85946CAA1A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AE6F31-CB26-4B7B-9C65-85946CAA1A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AE6F31-CB26-4B7B-9C65-85946CAA1A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA1255E-DEE8-4378-B0EE-35F8B7A31D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA1255E-DEE8-4378-B0EE-35F8B7A31D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA1255E-DEE8-4378-B0EE-35F8B7A31D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA1255E-DEE8-4378-B0EE-35F8B7A31D45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
