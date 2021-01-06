@@ -52,6 +52,12 @@ namespace ProductionComponents
         private void CalculateByComponentAmountUpScaled(IProductionComponent component, double componentAmount,
             CalculationResult calculationResult)
         {
+            calculationResult.CalculationComponentResults.Add(new CalculationComponentResult
+            {
+                Component = component,
+                NeededAmount = componentAmount
+            });
+            
             var factoryMultiplier = Math.Ceiling(CalculateFactoryMultiplier(component.OutputPerHour, componentAmount));
             AggregateComponentAmounts(component, calculationResult, factoryMultiplier);
         }

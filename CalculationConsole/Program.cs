@@ -13,9 +13,9 @@ namespace CalculationConsole
 
             var result = calculator.CalculateForMultipleComponentAmountsUpScaled(new Dictionary<IProductionComponent, double>
             {
-                {
-                    new MicroChips(), 3600
-                }
+                { new FoodRations(), 23625 },
+                { new NostropOil(), 3420 },
+                { new MedicalSupplies(), 18225 },
             });
 
             Console.WriteLine("Resources:");

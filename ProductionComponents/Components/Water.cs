@@ -9,17 +9,17 @@ namespace ProductionComponents.Components
             new Dictionary<IProductionComponent, double>
             {
                 {
-                    new EnergyCells(), 60
+                    new EnergyCells(), 1800
                 }
             };
 
         public IDictionary<IRawResource, double> NeededResources { get; } = new Dictionary<IRawResource, double>
         {
             {
-                new Ice(), 320
+                new Ice(), 9600
             }
         };
 
-        public int OutputPerHour { get; } = 220;
+        public int OutputPerHour { get; } = 6600;
     }
 }
